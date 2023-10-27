@@ -5,13 +5,13 @@ date: 2023-10-26
 type: landing
 
 sections:
-  - block: about.biography
+#  - block: about.biography
     id: about
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-- block: skills
+# - block: skills
     content:
       title: Skills
       text: ''
@@ -19,7 +19,7 @@ sections:
       username: admin
     design:
       columns: '1'
-  - block: portfolio
+#  - block: portfolio
     id: projects
     content:
       title: Projects
@@ -48,7 +48,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-- block: collection
+# - block: collection
     id: featured
     content:
       title: Featured Publications
@@ -171,13 +171,13 @@ sections:
       view: compact
       columns: '2'
 #  - block: markdown
-  #  content:
-   #   title: Gallery
-   #   subtitle: ''
-   #   text: |-
-     #   {{< gallery album="demo" >}}
-   # design:
-    #  columns: '1'
+    content:
+     title: Gallery
+     subtitle: ''
+      text: |-
+       {{< gallery album="demo" >}}
+    design:
+     columns: '1'
  # - block: collection
     content:
       title: Recent Publications
@@ -197,7 +197,7 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
-  - block: contact
+ # - block: contact
     id: contact
     content:
       title: Contact
@@ -233,9 +233,9 @@ sections:
           name: Zoom Me
           link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+    #  autolink: true
       # Email form provider
-      form:
+     # form:
         provider: netlify
         formspree:
           id:
